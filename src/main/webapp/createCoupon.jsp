@@ -8,12 +8,13 @@
 </head>
 <body>
 	<h1>Create Coupon</h1>
-	<form action="">
+	<form action="coupons" method="post">
 		<pre> 
 			Coupon Code: <input type="text" name="couponCode" />
 			Discount: <input type="text" name="discount" />
 			Expiry Date: <input type="text" name="expiryDate" />
-			<input type="submit" value="Save">
+		    <input type="hidden" name="action" value="create" />
+		    <input type="submit" value="Save">
 		</pre>
 	</form>
 </body>

@@ -8,10 +8,11 @@
 </head>
 <body>
 	<h1>Find Coupon</h1>
-	<form action="">
+	<form action="coupons" method="post">
 		<pre> 
 			Coupon Code: <input type="text" name="couponCode" />
-			<input type="submit" value="Find">
+			<input type="hidden" name="action" value="find">
+			<input type="submit" value="find">
 		</pre>
 	</form>
 </body>
